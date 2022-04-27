@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    text-align: center;
+    background-color: #ff2345;
+    margin-top: 0;
+    color: #103030;
+    font-size: 5rem;
+}
+
+.Recipes-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Recipes-list div {
+    border: 5px solid #ff2345;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Recipes-list div:hover {
+    transform: scale(1.1);
+}
+
+.Recipes-list img {
+    width: 300px;
+    max-width: 500px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.Recipes-list a {
+    text-decoration: none;
+    color: #103030;
+    text-align: center;
+    background-color: #ff2345;
+}
