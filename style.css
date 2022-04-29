@@ -40,3 +40,17 @@ body {
     text-align: center;
     background-color: #ff2345;
 }
+
+/* Recipes Style */
+
+nav{
+    margin-top: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: #ff2345;
+    color: #103030;
+    padding: 10px 20px;
+    font-weight: 700;
+}
